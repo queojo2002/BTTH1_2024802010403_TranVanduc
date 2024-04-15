@@ -7,9 +7,18 @@ import 'react-native-gesture-handler';
 
 
 export default function App() {
+
+  const board = [
+    ["R","N","B","Q","K","B","N","R"],
+    ["P","P","P","P","P","P","P","P"],
+    //... more arrays
+  ];
+  
   return (
     <NavigationContainer>
       <DrawerNavigator />
+
+
     </NavigationContainer>
 
     

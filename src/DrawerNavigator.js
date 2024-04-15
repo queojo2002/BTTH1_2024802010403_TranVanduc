@@ -7,6 +7,7 @@ import Project_5 from './Project_5';
 import Project_6 from './Project_6';
 import Project_7 from './Project_7';
 import Project_8 from './Project_8';
+import Project_9 from './Project_9';
 
 const Drawer = createDrawerNavigator();
 
@@ -62,7 +63,11 @@ function DrawerNavigator() {
         options={{ drawerLabel: 'Project 8' }}
       />
 
-
+    <Drawer.Screen
+        name="Project 9"
+        component={Project_9}
+        options={{ drawerLabel: 'Project 9' }}
+      />
     </Drawer.Navigator>
   );
 }
